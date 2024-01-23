@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./global.css"/>
+    <link rel="stylesheet" href="./LandingPage.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <div class="become-a-member">
+      <div class="header">
+        <img class="logo" alt="" src="./Figma/Logo.jpg" />
+        <div class="healthmeapp">HealthMeApp</div>
+        <div class="wording">Άστο, στο θυμίζουμε εμείς!</div>
+        <ul class="nav">
+            <li><i class="fa-solid fa-folder"></i><a href="#">Αποθετήριο</a></li>
+            <li><i class="fa-solid fa-user-doctor"></i><a href="#">Οι γιατροί μου</a></li>
+            <li><i class="fa-solid fa-calendar-days"></i><a href="#">Ημερολόγιο</a></li>
+            <li><i class="fa-solid fa-bullhorn"></i><a href="#">Νέα</a></li>
+            <li><i class="fas fa-chart-line"></i><a href="#">Στατιστικά</a></li>
+            <li><i class="fa-sharp fa-solid fa-globe"></i></li>
+          </ul>
+          <i class="fa-solid fa-user icon"></i>
+      </div>
+      <div class="main">
+        <div class="slide-icon">
+          <div class="bluebox">
+            <div class="text">
+              <p class="blank-line">Θέλεις να οργανώνεις όλα τα ραντεβού σου αλλά χάνεσαι με τόσες ημερομηνίες και γιατρους;</p>
+              <p class="blank-line">&nbsp;</p>
+              <p class="blank-line">Δεν γνωρίζεις ποιους προληπτικούς ελέγχους πρέπει να κάνεις;</p>
+              <p class="blank-line">&nbsp;</p>
+              <p class="blank-line">Χρειάζεσαι έναν χώρο, όπου θα αποθηκεύεις όλες σου τις εξετάσεις;</p>
+              <p class="blank-line">&nbsp;</p>
+              <p class="blank-line">Θες να ενημερώνεσαι για τα νέα της ιατρικής κοινότητας;</p>
+              <p class="blank-line">&nbsp;</p>
+              <p class="blank-line">&nbsp;</p>
+              <p class="blank-line">&nbsp;</p>
+            </div>
+            <div class="button-create"></div>
+            <div class="member" id="text7">Γίνε μέλος</div>
+            <div class="frame-child"></div>
+            <div class="planner">
+              <p class="blank-line">Καλωσήρθες στον προσωπικό</p>
+              <p class="blank-line">σου ιατρικό planner</p>
+            </div>
+            <i class="fa-solid fa-heart-pulse fa-beat heart"></i>
+            <i class="fa-solid fa-circle-xmark x"></i>
+            <i class="fa-sharp fa-solid fa-circle-question what"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="wrapper">
+          <div class="aboutus">Σχετικά με εμάς</div>
+        </div>
+        <div class="circle"></div>
+        <i class="fa-sharp fa-solid fa-comments fa-fade chat"></i>
+        <div class="copyright">Copyright</div>
+        <i class="fa-regular fa-closed-captioning cc"></i>
+        <div class="div2023">2023</div>
+        <i class="fa-brands fa-viber viber"></i>
+        <i class="fa-brands fa-whatsapp whatsapp"></i>
+        <i class="fa-brands fa-facebook-messenger messenger"></i>
+        <i class="fa-brands fa-instagram insta"></i>
+        <div class="send">Στείλε μήνυμα</div>
+      </div>
+    </div>
+
+    <script>
+      var text7 = document.getElementById("text7");
+      if (text7) {
+        text7.addEventListener("click", function (e) {
+          window.location.href = "./LogIn.html";
+        });
+      }
+      </script>
+  </body>
+</html>

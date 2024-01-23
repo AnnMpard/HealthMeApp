@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <title>Register/Log In</title>
+    <link rel="stylesheet" href="./global.css"/>
+    <link rel="stylesheet" href="./LogIn.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <div class="login">
+        <div class="header">
+          <img class="logo" alt="" src="./Figma/Logo.jpg"/>
+          <div class="healthmeapp">HealthMeApp</div>
+          <div class="wording">Άστο, στο θυμίζουμε εμείς!</div>
+          <ul class="nav">
+            <li><i class="fa-solid fa-folder"></i><a href="#">Αποθετήριο</a></li>
+            <li><i class="fa-solid fa-user-doctor"></i><a href="#">Οι γιατροί μου</a></li>
+            <li><i class="fa-solid fa-calendar-days"></i><a href="#">Ημερολόγιο</a></li>
+            <li><i class="fa-solid fa-bullhorn"></i><a href="#">Νέα</a></li>
+            <li><i class="fas fa-chart-line"></i><a href="#">Στατιστικά</a></li>
+            <li><i class="fa-sharp fa-solid fa-globe"></i></li>
+          </ul>
+          <i class="fa-solid fa-user icon"></i>
+        </div>
+        <div class="main">
+          <div class="slide-icon">
+            <div class="sign-upin">
+              <div class="button-up"></div>
+              <div class="register">Εγγραφή</div>
+              <div class="button-in"></div>
+              <div class="connect">Σύνδεση</div>
+              <img class="separate-icon" alt="" src="./Figma/Separate.jpg"/>
+              <div class="sign-upin-child"></div>
+              <div class="sign-upin-item"></div>
+              <div class="sign-upin-inner"></div>
+              <div class="sign-upin-child1"></div>
+              <div class="sign-upin-child2"></div>
+              <div class="sign-upin-child3"></div>
+              <div class="username1">Όνομα χρήστη:</div>
+              <div class="password1">Κωδικός:</div>
+              <div class="password2">Κωδικός:</div>
+              <div class="e-mail">E-mail:</div>
+              <div class="button-create"></div>
+              <div class="button-connect"></div>
+              <div class="account" id="text11">
+                <p class="p13">Δημιουργία</p>
+                <p class="p13">λογαριασμού</p>
+              </div>
+              <div class="connection" id="text12">Είσοδος</div>
+              <div class="username2">Όνομα χρήστη:</div>
+              <div class="phone">Τηλέφωνο:</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="wrapper">
+            <div class="aboutus">Σχετικά με εμάς</div>
+          </div>
+          <div class="circle"></div>
+          <i class="fa-sharp fa-solid fa-comments fa-fade chat"></i>
+          <div class="copyright">Copyright</div>
+          <i class="fa-regular fa-closed-captioning cc"></i>
+          <div class="div2023">2023</div>
+          <i class="fa-brands fa-viber viber"></i>
+          <i class="fa-brands fa-whatsapp whatsapp"></i>
+          <i class="fa-brands fa-facebook-messenger messenger"></i>
+          <i class="fa-brands fa-instagram insta"></i>
+          <div class="send">Στείλε μήνυμα</div>
+      </div>
+    </div>
+    <script>
+      var text11 = document.getElementById("text11");
+      if (text11) {
+        text11.addEventListener("click", function (e) {
+          window.location.href = "./Successful.html";
+        });
+      }
+      
+      var text12 = document.getElementById("text12");
+      if (text12) {
+        text12.addEventListener("click", function (e) {
+          window.location.href = "./Successful.html";
+        });
+      }
+      </script>
+  </body>
+</html>
